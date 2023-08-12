@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 244, 152);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pannel{
+    width: 80%;
+    height: 80%;
+    border-radius:20px;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+#ptop{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(228, 196, 56);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30%;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+.elem .box{
+    width: 22px;
+    height: 22px;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 2px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pmid{
+    width: 100%;
+    height: calc(100% - 150px);
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#pmid h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#pbtm{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(228, 196, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pbtm button{
+    padding: 5px;
+    background-color: rgb(228, 196, 56);
+    border-radius: 5px;
+    border: 2px solid rgb(255, 226, 164);
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: rgb(238, 244, 152);
+    cursor: pointer;
+}
+
+
+.bubble{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(228, 196, 56);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.bubble:hover{
+    background-color: rgb(238, 244, 152);
+    cursor: pointer;
+}
